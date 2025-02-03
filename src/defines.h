@@ -1,0 +1,9 @@
+#ifndef _DEFINES_H_
+#define _DEFINES_H_
+
+enum MarkerType {MARKER_UNUSED = 0, MARKER_INSIDE = 1, MARKER_BOUNDARY = 2, MARKER_OUTSIDE = 3, MARKER_BOX_BOUNDARY = 4};
+
+#define DISTANCE_LARGE 1e9
+#define DISTANCE_SMALL 1e-6
+
+#endif 
